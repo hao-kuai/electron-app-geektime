@@ -1,0 +1,8 @@
+{
+  "name": "electron-app-geektime",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/1071942338/electron-app-geektime.git",
+  "author": "张文旗 <1071942338@qq.com>",
+  "license": "MIT"
+}
