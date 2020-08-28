@@ -44,33 +44,11 @@ See our [docs and guides here](https://electron-react-boilerplate.js.org/docs/in
 
 负责原生模块
 
-## 6. 配置步骤
+## 6. 接口服务地址
 
-### 6.1 修改 webpack.config.base.js 文件,支持 js、jsx
+### 6.1 https://github.com/1071942338/node-server-geektime
 
-```javascript
-      {
-        test: /\.tsx?$/,
-        exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            cacheDirectory: true,
-          },
-        },
-      },
-```
 
-```javascript
-      {
-        test: /\.(js|mjs|jsx|ts|tsx)$/,
-        exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            cacheDirectory: true,
-          },
-        },
-      },
-```
+
+
 
